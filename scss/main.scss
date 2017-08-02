@@ -1,10 +1,11 @@
 
 // === REF TO PARTIALS ===
-@import "variables";
-@import "mixins";
+@import "partials/variables";
+@import "partials/mixins";
 // === including a global mixin ===
 @include fancy-links;
-
+@include google-font("Alegreya+Sans");
+@include google-font("Titillium+Web");
 
 //END OF MIXIN
 body {
